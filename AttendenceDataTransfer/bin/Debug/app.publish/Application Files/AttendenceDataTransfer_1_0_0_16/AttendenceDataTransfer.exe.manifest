@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AttendenceDataTransfer.exe" version="1.0.0.16" publicKeyToken="dfb650ba01d6e2b2" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AttendenceDataTransfer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AttendenceDataTransfer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AttendenceDataTransfer.exe" size="10240">
+      <assemblyIdentity name="AttendenceDataTransfer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>evg6T/odos7qWvvKdOFxSmaRBS7hh4cqDRwE4qBUOV0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Oracle.ManagedDataAccess.dll" size="4055552">
+      <assemblyIdentity name="Oracle.ManagedDataAccess" version="4.121.2.0" publicKeyToken="89B483F429C47342" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>o05AgH8giZO/J8RGPb+IS+D/86O1bLhj1hJUXbHedas=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AttendenceDataTransfer.exe.config" size="1769">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>flysx1YCtRnDPyXkOlA09inSqMO6EwL/UeobUTOMhPs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-4LARUBE\Nadia" issuerKeyHash="67511e0c73c89803d8e97ed0b66ec7f374d20f49" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jAHTxkJ4m80fIj8HcNq8o1gHjhhOBtJZrH7TykjBBxQ=</DigestValue></Reference></SignedInfo><SignatureValue>o1wN19sYJ3Kz4IF+8scGc78XQs/9YrEddbYXrXV5gC0ZkrPDX+Mjj80xu+Vz2OM060usROVf/EyuvetIVJ/wiVlxX6UNpsHzfLp+sf45TigVaAX0FWXWk8rFVdkzowfxiBGIHiPTV4SeMZBcN3Db4E8HRy2WIoPBQ3zFralJEhU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xBjIwnazJo30sswHdjnYjw+/S6Z9SiywghPkPNOmAIRrFVzq6d4npqxTkVdD87gVQc7MHmC+DMD6Zi7UNIioklxudZPskYoidcGMf3JngDDHKWLj3CZB4TaWpN38knJaMeLv45JzyHq9gZExp/gdxRfTMxEqsKbDI9IQ47Opq+U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1407c148cad37eac59d2064e188e0758a3bcda70073f221fcd9b7842c6d3018c" Description="" Url=""><as:assemblyIdentity name="AttendenceDataTransfer.exe" version="1.0.0.16" publicKeyToken="dfb650ba01d6e2b2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-4LARUBE\Nadia</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>CV1O6zRGtX4MzY+sNy+NJbMQCw4yu5ySJ9MT4STnhxc=</DigestValue></Reference></SignedInfo><SignatureValue>kb855tcivJF2zzM3unnjRrC/B/xgpphM8qDu7h5Z26kKyUqDmNvWqsuUAFVZlELKe/45hrwu3Znb8eACbujm34X0Ql+BWZt9c6/+hDzBhUB8aRx3Ei0Bv2j77m9GVCSBWdjc9al/LT9z0uLOJojv6Bi9H5XTLVpfQZeRXJO66eI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xBjIwnazJo30sswHdjnYjw+/S6Z9SiywghPkPNOmAIRrFVzq6d4npqxTkVdD87gVQc7MHmC+DMD6Zi7UNIioklxudZPskYoidcGMf3JngDDHKWLj3CZB4TaWpN38knJaMeLv45JzyHq9gZExp/gdxRfTMxEqsKbDI9IQ47Opq+U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQHDhqGySWEpNKzNrj/ieMnzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADQATABBAFIAVQBCAEUAXABOAGEAZABpAGEwHhcNMTYxMDA1MDkyMDE5WhcNMTcxMDA1MTUyMDE5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADQATABBAFIAVQBCAEUAXABOAGEAZABpAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMQYyMJ2syaN9LLMB3Y52I8Pv0umfUossIIT5DzTpgCEaxVc6uneJ6asU5FXQ/O4FUHOzB5gvgzA+mYu1DSIqJJcbnWT7JGKInXBjH9yZ4Awxyli49wmQeE2lqTd/JJyWjHi7+OSc8h6vYGRMaf4HcUX0zMRKrCmwyPSEOOzqavlAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAXOyJ7/cKn8+kG8zJB5XfxNSc1/Kp9xdBv/CfSNZ9B1Rn4HeRNVjD4uuax7NJoAPCxuWvWvdomi9MdzYl3N7XpqYepzrO9vWqDfoD2C1mdOMJKxtnN505eJ1MOT2PHrG+yKaiK/1MFEC6hLmFDtShx+1UC1DETBx+xgf6Ra31dkw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

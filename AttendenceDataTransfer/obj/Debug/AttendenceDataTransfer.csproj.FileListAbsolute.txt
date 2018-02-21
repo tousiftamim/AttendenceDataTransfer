@@ -1,0 +1,22 @@
+c:\users\nadia\documents\visual studio 2013\Projects\AttendenceDataTransfer\AttendenceDataTransfer\bin\Debug\AttendenceDataTransfer.exe.config
+c:\users\nadia\documents\visual studio 2013\Projects\AttendenceDataTransfer\AttendenceDataTransfer\obj\Debug\AttendenceDataTransfer.csprojResolveAssemblyReference.cache
+c:\users\nadia\documents\visual studio 2013\Projects\AttendenceDataTransfer\AttendenceDataTransfer\bin\Debug\AttendenceDataTransfer.exe
+c:\users\nadia\documents\visual studio 2013\Projects\AttendenceDataTransfer\AttendenceDataTransfer\bin\Debug\AttendenceDataTransfer.pdb
+c:\users\nadia\documents\visual studio 2013\Projects\AttendenceDataTransfer\AttendenceDataTransfer\obj\Debug\AttendenceDataTransfer.exe
+c:\users\nadia\documents\visual studio 2013\Projects\AttendenceDataTransfer\AttendenceDataTransfer\obj\Debug\AttendenceDataTransfer.pdb
+c:\users\nadia\documents\visual studio 2013\Projects\AttendenceDataTransfer\AttendenceDataTransfer\bin\Debug\Oracle.ManagedDataAccess.dll
+c:\users\nadia\documents\visual studio 2013\Projects\AttendenceDataTransfer\AttendenceDataTransfer\bin\Debug\AttendenceDataTransfer.exe.manifest
+c:\users\nadia\documents\visual studio 2013\Projects\AttendenceDataTransfer\AttendenceDataTransfer\bin\Debug\AttendenceDataTransfer.application
+c:\users\nadia\documents\visual studio 2013\Projects\AttendenceDataTransfer\AttendenceDataTransfer\obj\Debug\AttendenceDataTransfer.exe.manifest
+c:\users\nadia\documents\visual studio 2013\Projects\AttendenceDataTransfer\AttendenceDataTransfer\obj\Debug\AttendenceDataTransfer.application
+F:\AttendenceDataTransfer\AttendenceDataTransfer\bin\Debug\AttendenceDataTransfer.exe.config
+F:\AttendenceDataTransfer\AttendenceDataTransfer\bin\Debug\AttendenceDataTransfer.exe.manifest
+F:\AttendenceDataTransfer\AttendenceDataTransfer\bin\Debug\AttendenceDataTransfer.application
+F:\AttendenceDataTransfer\AttendenceDataTransfer\bin\Debug\AttendenceDataTransfer.exe
+F:\AttendenceDataTransfer\AttendenceDataTransfer\bin\Debug\AttendenceDataTransfer.pdb
+F:\AttendenceDataTransfer\AttendenceDataTransfer\bin\Debug\Oracle.ManagedDataAccess.dll
+F:\AttendenceDataTransfer\AttendenceDataTransfer\obj\Debug\AttendenceDataTransfer.csprojResolveAssemblyReference.cache
+F:\AttendenceDataTransfer\AttendenceDataTransfer\obj\Debug\AttendenceDataTransfer.exe.manifest
+F:\AttendenceDataTransfer\AttendenceDataTransfer\obj\Debug\AttendenceDataTransfer.application
+F:\AttendenceDataTransfer\AttendenceDataTransfer\obj\Debug\AttendenceDataTransfer.exe
+F:\AttendenceDataTransfer\AttendenceDataTransfer\obj\Debug\AttendenceDataTransfer.pdb
